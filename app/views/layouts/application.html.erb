@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Vera</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+ 
+    <meta name="description" content="Responsive Landing Page for Presenting Your Startup: Saas, Mobile or Web Application" />
+    <meta name="keywords" content="smartmvp, startup theme, startup template, startup example, startup landing page, one page, responsive, app landing, html template, mobile application, responsive landing page" />
+    <meta name="author" content="Vera">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- FAVICON  -->
+    <link rel="icon" href="images/favicon/favicon.ico">
+    
+    <!-- =========================
+       STYLESHEETS 
+    ============================== -->
+  
+     
+    <!-- GOOGLE FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,600,700%7COpen+Sans:300,400,600,700%7CHandlee" rel="stylesheet">
+    
+    
+    <!--[if lt IE 9]>
+            <script src="assets/js/plugins/html5shiv.min.js"></script>
+            <script src="assets/js/plugins/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  
+<%= yield %>
+
+</body>
+</html>
