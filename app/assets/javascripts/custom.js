@@ -17,7 +17,7 @@ function showRegisterForm(){
         $('.login-footer').fadeOut('fast',function(){
             $('.register-footer').fadeIn('fast');
         });
-        $('.modal-title').html('Create an Account');
+        $('.modal-title').html('Get Started Instantly');
         $('.modal-subtitle').html('No credit card required');
     });
     $('.error').removeClass('alert alert-danger').html('');
@@ -32,7 +32,7 @@ function showLoginForm(){
             $('.login-footer').fadeIn('fast');
         });
         
-        $('.modal-title').html('Sign in to <span>SmartMvp</span>');
+        $('.modal-title').html('Log in to <span>Vera</span> Account');
         $('.modal-subtitle').html('Enter your email and password');
     });
     $('.error').removeClass('alert alert-danger').html('');
@@ -171,7 +171,8 @@ $("#owl-carousel-shots-phone").owlCarousel({
 $('.tweet').twittie({
     apiPath : 'assets/js/plugins/twitter/api/tweet.php',
     count: 2,
-    template: '{{tweet}} - <span class="date">{{date}}</span>'
+    template: '{{tweet}} - <span class="date">{{date}}</span>',
+    username: 'andrewjiang'
 });
 
 

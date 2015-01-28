@@ -26,12 +26,12 @@
 /*	 Basic Settings
 /*------------------------------------------*/
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #727272;
     font-size: 16px;
     line-height: 28px;
-    font-weight: 400;
+    font-weight: 300;
     padding: 0;
     background-color: #ffffff;
 }
@@ -477,6 +477,24 @@ a.text-white:hover{
 	border-color: #ffffff;
 }
 
+.btn-clear, .navbar li>.btn-clear {
+    background: transparent;
+    color: #2980b9;
+    border-color: transparent;
+}
+
+.btn-clear:hover, .navbar li>.btn-clear:hover {
+    background: transparent;
+    color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-clear, .is-scrolling li>.btn-clear {
+    background: transparent;
+    color: #fff;
+}
+
+
 .btn-white {
 	background: #ffffff;
 	color: #c0392b;
@@ -533,6 +551,17 @@ a.text-white:hover{
     -moz-background-size:cover;
     background-size: cover;*/
     background-color: #fff;   
+}
+
+.header.solid-bg{
+    background: #ffffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 40%, #f4f5ff 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,#ffffff), color-stop(100%,#f4f5ff)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 40%,#f4f5ff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ffffff 40%,#f4f5ff 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ffffff 40%,#f4f5ff 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ffffff 40%,#f4f5ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f5ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .header .overlay {
@@ -594,6 +623,10 @@ a.text-white:hover{
 }
 
 .is-scrolling li>a{
+    color: #fff;
+}
+
+.is-scrolling .navbar-nav>li>a:hover{
     color: #fff;
 }
 

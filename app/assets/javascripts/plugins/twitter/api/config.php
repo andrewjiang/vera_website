@@ -4,12 +4,12 @@
      */
     
     // Consumer Key
-    define('CONSUMER_KEY', 'mhjI2MgV7nfAN25ZbDXEcWS9Y');
-    define('CONSUMER_SECRET', 'm1kouwneKUvjlMjCyMJBZf5NPySmcFJDcSTMEeuTrneLYbIUPT');
+    define('CONSUMER_KEY', 'QdDOApiAR3e3VrQHkmP62q9Nd');
+    define('CONSUMER_SECRET', 'ETdo5PkjpnRePkbMbMpwYIEzov0ic5QKLY3LeLA4b4gIU0o7zE');
 
     // User Access Token
-    define('ACCESS_TOKEN', '1922782302-vAL3zSMJj3e5FbnjtZdNxTEuTlaYYk9H9GbFFvJ');
-    define('ACCESS_SECRET', 'gSvDHDfVJag5F4568OwGa4vHykTMCgSMtUoxmQ33MApxX');
+    define('ACCESS_TOKEN', '20314954-OixAAcNEdJccewtSJo8oNQ2UPX5eDv5bdfVbciOgF');
+    define('ACCESS_SECRET', 'qCIggPhS2Hz3qoKlnn9ZsTrpnn5PJsVHnPvhIntWXqeKj');
 	
 	// Cache Settings
 	define('CACHE_ENABLED', false);
