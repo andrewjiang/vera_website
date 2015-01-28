@@ -18,7 +18,7 @@ function showRegisterForm(){
             $('.register-footer').fadeIn('fast');
         });
         $('.modal-title').html('Create an Account');
-        $('.modal-subtitle').html('Begin a 30-day free trial of SmartMVP');
+        $('.modal-subtitle').html('No credit card required');
     });
     $('.error').removeClass('alert alert-danger').html('');
 }
