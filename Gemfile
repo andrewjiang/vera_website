@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
@@ -23,6 +22,19 @@ gem 'jbuilder', '~> 2.0'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+gem 'devise', '~> 3.2'
+
+gem 'simple_form'
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
+
+gem 'ransack', github: 'activerecord-hackery/ransack'
+
+gem 'formtastic', github: 'justinfrench/formtastic'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
