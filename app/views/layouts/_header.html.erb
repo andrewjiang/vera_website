@@ -78,10 +78,7 @@
                                                 <p class="lm-success"><i class="icon icon_check_alt2"></i> <strong>Congratulation! Login modal validation is working. Implement your code.</strong></p>
                                                 <p class="lm-failed"><i class="icon icon_close_alt2"></i><strong> Something went wrong! Insert correct value.</strong></p>
                                                 <!-- Input Fields -->
-                                                <input id="lm-email" class="form-control input-lg" type="text" placeholder="Email" name="lm-email" required>
-                                                <input id="lm-password" class="form-control input-lg" type="password" placeholder="Password" name="lm-password" required>
-                                                <!-- Login Button -->
-                                                <button class="btn btn-color">Login</button>
+                                                <%= render 'devise/sessions/new' %>
                                             </form>
                                         </div><!-- /End Login Form -->
                                      </div>
@@ -89,17 +86,7 @@
                                 <div class="box">
                                     <!-- Signup Form -->
                                     <div class="content registerBox" style="display:none;">
-                                        <form id="signup-modal" role="form">
-                                            <!-- Success/Alert Notification -->
-                                            <p class="sm-success"><i class="icon icon_check_alt2"></i> <strong>Congratulation! Signup modal validation is working. Implement your code.</strong></p>
-                                            <p class="sm-failed"><i class="icon icon_close_alt2"></i><strong> Something went wrong! Insert correct value.</strong></p>
-                                            <!-- Input Fields -->
-                                            <input id="sm-email" class="form-control input-lg" type="text" placeholder="Email" name="sm-email" required>
-                                            <input id="sm-password" class="form-control input-lg" type="password" placeholder="Password" name="sm-password">
-                                            <input id="sm-confirm" class="form-control input-lg" type="password" placeholder="Repeat Password" name="sm-confirm">
-                                            <!-- Signup Button -->
-                                            <button class="btn btn-color">Create Account</button>
-                                        </form>
+                                        <%= render 'devise/registrations/new' %>
                                         
                                     </div><!-- /End Signup Form -->
                                 </div><!-- /End Signup Form Box -->

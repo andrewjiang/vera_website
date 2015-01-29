@@ -18,13 +18,13 @@ a, .text-color {
     border-color: #2980b9;
 }
 
-.btn-color, .btn-color-ghost:hover {
+.btn-color, .btn-default.btn-color, .btn-color-ghost:hover {
     background: #2980b9;
     color: #fff;
     border-color: #2980b9;
 }
 
-.btn-color:hover {
+.btn-color:hover, .btn-default.btn-color:hover {
     background: #ffffff;
     color: #2980b9;
     border-color: #2980b9;

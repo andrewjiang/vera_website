@@ -1826,3 +1826,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 }
+
+.form-inputs abbr{
+    text-align: left;
+}
+
+.form-inputs .boolean{
+    text-align: left;
+}
