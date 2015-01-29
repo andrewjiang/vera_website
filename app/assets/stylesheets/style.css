@@ -82,6 +82,7 @@ a {
 a:hover, a:focus {
 	color: #3e3e3e;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 /*------------------------------------------*/
