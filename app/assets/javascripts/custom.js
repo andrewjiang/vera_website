@@ -198,31 +198,6 @@ if (onMobile === true) {
 
 
 /* ==========================================
-   MAILCHIMP NEWSLETTER SUBSCRIPTION
-============================================= */
-$(".mailchimp-subscribe").ajaxChimp({
-    callback: mailchimpCallback,
-    url: "http://themedept.us9.list-manage.com/subscribe/post?u=63465a86fdd5f3b9fa31f9278&amp;id=52df53337f" // Replace your mailchimp post url inside double quote "".  
-});
-
-function mailchimpCallback(resp) {
-if(resp.result === 'success') {
-    $('.mc-success')
-    .html('<i class="icon icon_check_alt2"></i>' + resp.msg)
-    .fadeIn(1000);
-
-    $('.mc-failed').fadeOut(500);
-        
-} else if(resp.result === 'error') {
-    $('.mc-failed')
-    .html('<i class="icon icon_close_alt2"></i>' + resp.msg)
-    .fadeIn(1000);
-            
-    $('.mc-success').fadeOut(500);
-}
-}
-
-/* ==========================================
    FUNCTION FOR EMAIL ADDRESS VALIDATION
 ============================================= */
 function isValidEmail(emailAddress) {

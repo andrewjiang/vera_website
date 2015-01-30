@@ -26,10 +26,10 @@
 /*	 Basic Settings
 /*------------------------------------------*/
 body {
-    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #727272;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
     font-weight: 300;
     padding: 0;
@@ -398,11 +398,13 @@ b, strong {
 
 p {
     margin: 0;
+    font-size: 20px;
+    line-height: 145%;
 }
 
 .large{
-	font-size: 18px;
-    line-height: 25px;
+	font-size: 22px;
+    line-height: 145%;
     margin-bottom: 50px;
     font-weight: 400;
     text-align: center;
@@ -678,8 +680,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .hero-section p{
-    font-size: 21px;
-    line-height: 27px;
+    font-size: 24px;
+    line-height: 145%;
     letter-spacing: -1px;
     margin-bottom: 35px;
 }
@@ -1569,8 +1571,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .mobile-text {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 145%;
     margin-bottom: 2h0px;
     font-weight: 400;
 }
@@ -1662,7 +1664,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .footer-hero, .footer-cta{
-    font-size: 19px;
+    font-size: 22px;
     line-height: 22px;
     margin-top: 20px;
     font-weight: 400;
@@ -1698,7 +1700,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .contact-content {
     display: inline-block;
-    line-height: 21px;
+    line-height: 145%;
 }
 
 .contact-content a {

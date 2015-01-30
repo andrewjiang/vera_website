@@ -1,5 +1,7 @@
     <div class="main-wrapper">
 
+    	
+
         <!-- =========================
              HEADER
         ============================== -->
@@ -25,18 +27,24 @@
   <p class="alert"><%= alert %></p>
                                 
                                 <!-- Welcome - Hero Message -->
-                                <h1 class=""><span class="text-color">Vera</span> helps lower your medical bills</h1>
-                                <p class="">Vera is your intelligent medical advocate. We combine smart data + medical billing experts to point out errors in your medical bills and help you negotiate them down.</p>
+                                <h1 class="" style="padding-bottom:10px;"><span class="text-color">Vera</span> helps lower your medical bills</h1>
+                                <p class="" style="padding-bottom:10px;">Vera is your intelligent medical advocate. We combine smart data + medical billing experts to point out errors in your medical bills and help you negotiate them down.</p>
                                 
                                 <!-- Learn More & Video Buttons -->
                                 <div class="btn-box">
                                     <a href="#howitworks" class="btn scrollto">How it Works</a>
                                     <!-- Video Lightbox on Click -->
 
-                                    <a class="btn btn-color venobox" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">GET STARTED</a>
+                                    <!--a class="btn btn-color venobox" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">GET STARTED</a-->
+                                    <a class="typeform-share btn btn-color venobox" href="https://verahealth.typeform.com/to/y7W5lD" data-mode="1" target="_blank">GET STARTED</a>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
                                 </div>
                                 <br><br><br>
-                                <h5>Health Advocate? <a>Click Here</a></h5>
+                                <h5>Patient Advocate? <a class="typeform-share link" href="https://verahealth.typeform.com/to/wBX57G" data-mode="2" target="_blank">Click Here</a>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+</h5>
+
 
                             </div><!-- /End Intro-Section -->
                         </div><!-- /End Col -->
@@ -298,28 +306,17 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h2 class="text-white">Lower your medical bills</h2>
-                            <p class="large text-white">No credit card required. Use Vera for FREE.</p>
-                            <!-- Handwritten text with arrow -->
-                            <p class="signup-handwritten text-white">Get started today<br>1-minute sign up</p>
+                            <p class="large text-white">No credit card required</p>
+                            
                         </div>
                     </div>
 
                     <div class="row">
                         <!-- Signup Form -->
                         <form id="signup-divider" role="form">
-                            <!-- Notification -->
-                            <p class="signup-success"><i class="icon icon_check_alt2"></i> <strong>Congratulation! Welcome to 30 day Free Trial. Check your email address.</strong></p>
-                            <p class="signup-failed"><i class="icon icon_close_alt2"></i><strong> Something went wrong! Insert correct value.</strong></p>  
-
-                            <!-- Input fields -->
-                            <div class="form-group">
-                                <input type="email" name="signup-email" id="signup-email" class="form-control input-lg" placeholder="Enter your Email-Address" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="password" size="25" name="signup-password" id="signup-password" class="form-control input-lg" placeholder="Enter your Password" required>
-                            </div>
+                           
                             <!-- Signup Button -->
-                            <button class="btn btn-color">Get Started<i class="icon arrow_right"></i></button>
+                            <a class="typeform-share btn btn-color" href="https://verahealth.typeform.com/to/y7W5lD" data-mode="1" target="_blank">GET STARTED FOR FREE</a>
                         </form>
                     </div><!-- /End Row -->
                 </div><!-- /End Wrapper -->
@@ -395,7 +392,7 @@
         ======================================================= -->
         <section class="newsletter color-bg" id="newsletter">
             <div class="container">
-                <div class="wrapper-sm">
+                <div class="wrapper-sm" style="padding-bottom:15px;">
                     <div class="row">
                         <div class="col-md-6">
                             <!-- =========================
@@ -432,8 +429,12 @@
                         <div class="col-md-6">
                             <!-- =========================
                                 MAILCHIMP SUBSCRIPTION FORM 
-                            ============================== -->            
-                            <form class="mailchimp-subscribe" role="form">
+                            ============================== -->     
+
+                            <!-- Begin MailChimp Signup Form -->
+												
+														<div id="mc_embed_signup">
+															<form role="form" action="//veraapp.us10.list-manage.com/subscribe/post?u=3e2dcf9f69bbe8c0108283618&amp;id=1f2c32502c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailchimp-subscribe" target="_blank" novalidate>
                                 <div class="table">
                                     <div class="table-row">
                                         <div class="table-cell getnewsletter">
@@ -442,10 +443,12 @@
                                         <div class="table-cell">
                                             <div class="input-group text-white">
                                                 <!-- Input Form -->
-                                                <input type="email" id="subscriber-email" name="email" placeholder="Your email address" class="form-control">
+                                                <input type="email" value="" id="mce-EMAIL" name="EMAIL" placeholder="Your email address" class="required email form-control">
+                                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3e2dcf9f69bbe8c0108283618_1f2c32502c" tabindex="-1" value=""></div>
+																	    					
                                                 <!-- Submit Button -->
                                                 <span class="input-group-btn">
-                                                    <button class="btn btn-white"><p class="text-color">Subscribe</p></button>
+                                                	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-white" style="color:#2980b9;">
                                                 </span>
                                             </div><!-- /End Input Group -->
                                         </div><!-- /End Table-Cell -->
@@ -453,10 +456,19 @@
                                 </div><!-- /End Table -->
                                 <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
                                     <!-- Notifications --> 
-                                    <p class="mc-success"></p>
-                                    <p class="mc-failed"></p>
+                                    <br>
+                                    <div id="mce-responses" class="text-white">
+																			<div class="response" id="mce-error-response" style="display:none"></div>
+																			<div class="response" id="mce-success-response" style="display:none"></div>
+																		</div>  
                                 </div>
-                            </form><!-- /End Mailchimp Subscribe Form -->
+                            	</form><!-- /End Mailchimp Subscribe Form -->
+
+														</div>
+														<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+														<!--End mc_embed_signup-->
+
+                            
                                       
                             <!-- =========================
                                 LOCAL SUBSCRIPTION FORM 
@@ -495,7 +507,7 @@
              /END NEWSLETTER SECTION 
         ============================== -->
         
-        
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"3e2dcf9f69bbe8c0108283618","lid":"d40029ddc6"}) })</script>
         <!-- ==================================================
             FOOTER
         ======================================================= -->
@@ -512,7 +524,7 @@
                                     <i class="icon icon_mail"></i>
                                 </div>
                                 <div class="contact-content">
-                                    <a href="mailto:hi@themedept.com" class="text-color">hello@veraapp.com</a>
+                                    <a href="mailto:hello@veraapp.com" class="text-color">Hello@VeraApp.com</a>
                                 </div>
                             </div>
                             <div class="contact-item">
@@ -542,7 +554,7 @@
                                     <span class="text-logo">Vera Health</span>
                                 </a>
                                 <p class="footer-hero"><strong>Our mission</strong> is to help people make better healthcare decisions. </p>
-                                <p class="footer-cta">What do you believe in? <a href="#top" class="btn btn-color">Join Us</a>
+                                <p class="footer-cta">What do you believe in? <a href="mailto:jobs@veraapp.com" class="btn btn-color">Join Us</a>
                                 </p> 
                         </div>
                         <!-- Footer Right Col: Twitter Feed -->
@@ -581,3 +593,7 @@
         </footer>
 
     </div><!-- /End Main Wrapper -->
+
+
+   <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"3e2dcf9f69bbe8c0108283618","lid":"d40029ddc6"}) })</script>
+

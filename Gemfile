@@ -35,6 +35,8 @@ gem 'ransack', github: 'activerecord-hackery/ransack'
 
 gem 'formtastic', github: 'justinfrench/formtastic'
 
+gem 'dojo-rails'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
