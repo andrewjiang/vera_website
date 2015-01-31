@@ -36,6 +36,10 @@ body {
     background-color: #ffffff;
 }
 
+.heavy{
+    font-weight: 700;
+}
+
 .main-wrapper {
     overflow: hidden;
 }
