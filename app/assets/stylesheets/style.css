@@ -1598,6 +1598,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     position: relative;
 }
 
+.owl-container img{
+    width: 240px;
+}
+
 #owl-carousel-shots-phone {
     height: 600px;
     width: 244px;
