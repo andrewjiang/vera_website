@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get 'index/advocates'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   devise_for :users
+
+  get 'advocates' => 'home#advocates'
+
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

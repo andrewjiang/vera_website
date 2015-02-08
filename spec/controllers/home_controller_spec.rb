@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe IndexController do
+describe HomeController do
 
   describe "GET 'advocates'" do
     it "returns http success" do
