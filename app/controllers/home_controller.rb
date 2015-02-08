@@ -4,6 +4,7 @@ class HomeController < ApplicationController
 
   def index
   end
+end
 
   def resource_name
 	  :user
@@ -16,5 +17,4 @@ class HomeController < ApplicationController
 	def devise_mapping
 	  @devise_mapping ||= Devise.mappings[:user]
 	end
-	
-end
+
