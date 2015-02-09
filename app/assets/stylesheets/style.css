@@ -37,7 +37,7 @@ body {
 }
 
 .heavy{
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 .main-wrapper {
@@ -761,7 +761,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .dashboard .hero-section{
-    padding-top: 25%;
+    padding-top: 15%;
 }
 
 .image-dashboard {
@@ -1566,6 +1566,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding: 5%;
 }
 
+.team-box ul{
+    list-style:disc; 
+    padding-left:20px;
+}
+
+.team-box ul li{
+    font-size: 20px;
+}
 
 /* ==========================================================================
    13. MOBILE DOWNLOAD SECTION
