@@ -1075,13 +1075,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
    09. NEWSLETTER, FAST-REGISTRATION HEADER & SIGNUP DIVIDER SECTIONS
 =================================================================================== */ 
 /* Newsletter */
-.newsletter .table{
+.newsletter .table, .hero-signup .table{
     display: table;
     width: 100%;
     margin: 0;
 }
 
-.newsletter .table-row{
+.newsletter .table-row, , .hero-signup .table-row{
     display: table-row;
 }
 
@@ -1093,12 +1093,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     width: 190px;
 }
 
-.newsletter .table-cell {
+.newsletter .table-cell, .hero-signup .table-cell {
     display: table-cell;
     vertical-align: middle;
 }
 
-.newsletter .table-title {
+.newsletter .table-title, .hero-signup .table-title {
     font-size: 14px;
     line-height: 16px;
     color: #ffffff;
@@ -1135,28 +1135,65 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     color: #fff;
 }
 
-.newsletter .form-control:focus{
+.hero-signup .input-group .form-control{
+    background: transparent;
+    border-color: #2980b9;
+    font-weight: 400;
+    font-size: 16px;
+    height: 50px;
+    color: #222;
+    width: 400px;
+}
+
+.newsletter .form-control:focus, .hero-signup .form-control:focus {
     box-shadow: none;
 }
 
-.newsletter .form-control::-moz-placeholder {
+.newsletter .form-control::-moz-placeholder{
     color: #ffffff;
+}
+
+.hero-signup .form-control::-moz-placeholder {
+    color: #999
 }
 
 .newsletter .form-control:-ms-input-placeholder {
     color: #ffffff;
 }
 
+.hero-signup .form-control:-ms-input-placeholder{
+    color: #999;
+}
+
 .newsletter .form-control::-webkit-input-placeholder {
     color: #ffffff;
+}
+
+.hero-signup .form-control::-webkit-input-placeholder {
+    color: #999;
 }
 
 .newsletter .btn{
     padding: 16px 28px 15px 28px;
     margin-right:0;
+
+}
+
+.hero-signup .btn{
+    padding: 16px 28px 15px 28px;
+    margin-right:0;
+    background-color: #2980b9;
+    border: 2px solid #2980b9 !important;
+    color: #fff !important;
 }
 
 .newsletter .btn:hover{
+    background: #333333;
+    color: #fff;
+    border-color: #333333;
+}
+
+.hero-signup .btn:hover{
     background: #333333;
     color: #fff;
     border-color: #333333;
