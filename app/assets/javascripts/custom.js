@@ -425,6 +425,12 @@ $('.start-charts').waypoint(function(direction){
         }
 });
 
+$(".Homepage-CTA").click(function(e){
+    e.preventDefault();
+    mixpanel.track("Home Page CTA Clicked");
+    
+})
+
 /* =======================================================================
    LINE CHART
 ========================================================================== */
