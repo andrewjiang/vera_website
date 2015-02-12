@@ -428,7 +428,11 @@ $('.start-charts').waypoint(function(direction){
 $(".Homepage-CTA").click(function(e){
     e.preventDefault();
     mixpanel.track("Home Page CTA Clicked");
-    
+})
+
+$("form.hero-form").submit(function(e){
+    e.preventDefault();
+    mixpanel.track("Home Page Hero CTA Clicked")
 })
 
 /* =======================================================================
