@@ -3,7 +3,15 @@ $(document).ready(function(){
 	$("#home-hero-button").click(function(e) {
 
 		var email = $("#home-hero-email").val();
-		window.location.href = "/?email=" + email;
+
+		if (email){
+			window.location.href = "/?email=" + email;
+		} else {
+
+			$("#message").css("color","red")
+			$("#message").html("Please enter your email address");
+		}
+		
 	    
 	});
 
