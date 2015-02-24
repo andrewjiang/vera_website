@@ -46,7 +46,7 @@ class HomeController < ApplicationController
 			
 			puts @ticket
 
-			@message = "Thanks for applying for a free medical bill review. Our advocates will reach out to you via email shortly."
+			@message = "Thanks for applying for a free medical bill review. Our advocates will reach out to you at "+ @email+" shortly."
 
   	end
 
