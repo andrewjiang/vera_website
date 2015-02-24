@@ -64,3 +64,8 @@ title: 10_Ways_To_Lower_Your_Medical_Bills
 	</div>
 	
 </div>
+
+<script>
+
+        mixpanel.track("Blog Article Loaded");
+        </script>
