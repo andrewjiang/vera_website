@@ -37,6 +37,8 @@ gem 'formtastic', github: 'justinfrench/formtastic'
 
 gem 'zendesk_api'
 
+gem 'bloggy'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
